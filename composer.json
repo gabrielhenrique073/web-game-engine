@@ -1,0 +1,17 @@
+{
+    "name": "dev/app",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gabriel",
+            "email": "gabrielhenriquerabelolopes@gmail.com"
+        }
+    ],
+    "require": {
+        
+    }
+}
