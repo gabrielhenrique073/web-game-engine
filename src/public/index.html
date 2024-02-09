@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>World</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/engine/game.js"></script>
+    <script src="./js/engine/graph.js"></script>
+    <script src="./js/engine/scene.js"></script>
+    <script src="./js/engine/vector.js"></script>
+    <script src="./js/engine/utils.js"></script>
+
+    <script src="./js/classes/character.js"></script>
+</head>
+
+<body>
+    <script>
+        let game = new Game(
+            {
+                objects: [
+                    new Character(
+                        {
+                            transform: {
+                                x: 20,
+                                y: 20
+                            },
+                            scale: {
+                                x: 60,
+                                y: 60
+                            }
+                        }
+                    )
+                ]
+            }
+        );
+
+        console.log(game);
+    </script>
+</body>
+
+</html>
