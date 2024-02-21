@@ -30,7 +30,7 @@ class Graph {
     }
     draw(scene) {
 
-        this.context.fillStyle = '#3498db';
+        this.context.fillStyle = '#000000';
         this.context.fillRect(
             0,
             0,
